@@ -9,10 +9,10 @@ body{
     font-size: 12px;
 }
 
-main{
+.main{
     width: 80%;
     margin: 0 auto;
-    border: solid black;
+    border: solid black 1px;
     padding: 30px;
 }
 
@@ -20,4 +20,19 @@ h1{
     display: flex;
     justify-content: center;
     color: coral;
+}
+
+.title{
+    color: white;
+    padding: 0px;
+    margin: 0 auto;
+}
+
+.subtitle{
+    font-size: 15px;
+    margin: 0 auto;
+}
+
+.bg-blue{
+    background-color: blue;
 }
